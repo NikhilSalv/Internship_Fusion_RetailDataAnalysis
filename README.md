@@ -10,6 +10,8 @@ The dataset represents transaction data from an online retail store. It includes
 
 **1. Total Price by Country**
 
+![Total Price by Country](./Plots/Top10ByRevenue.png)
+
 Visualization: Bar chart displaying the total price of products purchased, aggregated by the customer's country.
 Observation:
 The United Kingdom dominates the sales, contributing the majority of the total revenue.
