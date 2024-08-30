@@ -112,3 +112,8 @@ Offering bundles, discounts, or exclusive items in these product lines could att
 Expand International Marketing: While the UK is a strong market, there’s potential to grow in other countries with focused marketing strategies.
 Leverage Seasonal Trends: Continue capitalizing on the holiday season while exploring new promotional opportunities in less active months.
 Optimize Product Offerings: Focus on top revenue-generating products while exploring customer preferences for potential new bestsellers.
+
+#### Aknowledgment:
+
+Thank you so much Internship Fusion for providing me this opportunity to work on this project. 
+https://www.linkedin.com/company/internship-fusion/mycompany/
