@@ -10,7 +10,7 @@ The dataset represents transaction data from an online retail store. It includes
 
 **1. Total Price by Country**
 
-![Total Price by Country](./Plots/Top10ByRevenue.png)
+![Total Price by Country](./Plots/TotalPriceByCountry.png)
 
 Visualization: Bar chart displaying the total price of products purchased, aggregated by the customer's country.
 Observation:
@@ -19,6 +19,9 @@ Other countries show significantly lower total revenue, suggesting that the reta
 A few other countries contribute modestly, indicating potential markets for expansion.
 
 **2. Total Price by Month**
+
+![Total Price by Month](./Plots/TotalPrice_By_Month.png)
+
 Visualization: Bar chart showing the total price of products purchased, aggregated by month.
 Observation:
 December records the highest sales, indicating strong seasonal demand, likely due to holiday shopping.
@@ -26,6 +29,9 @@ August and October also show high sales, which could be due to back-to-school sh
 The dip in sales during the early months of the year suggests that strategic marketing could help in boosting sales during this period.
 
 **3. Top 10 Products by Total Revenue**
+
+![Top 10 Products by Total Revenue](./Plots/Top10ByRevenue.png)
+
 Visualization: Bar chart illustrating the top 10 products based on total revenue.
 Observation:
 The top products show a significant contribution to total revenue, with the highest-selling product (StockCode: 23843) leading by a notable margin.
