@@ -6,7 +6,7 @@
 
 The dataset represents transaction data from an online retail store. It includes various attributes such as InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, and Country. The focus of the analysis is to segment customers based on their behavior and demographics to understand how these factors impact sales and marketing strategies.
 
-#### Scruitinising Missing data as well as Cancelled invoices.
+### Scruitinising Missing data as well as Cancelled invoices.
 
 Null values may carry important contextual information. For instance, missing values in a healthcare dataset might indicate that a patient was not tested for a particular condition, which could be a critical insight in itself.
 Imbalance in Data: Removing rows with null values can lead to a loss of data that represents specific subgroups, causing an imbalance. This can skew the analysis, particularly if the null values are not randomly distributed but are instead associated with a particular class or category.
@@ -23,7 +23,19 @@ Missed Patterns and Anomalies:
 Sometimes, patterns in missing data can reveal underlying issues or insights, such as systematic errors in data collection or specific conditions under which data is missing. By dropping null values, you miss the opportunity to explore these patterns and address potential systemic issues.
 Anomalies and Outliers: Missing values might be associated with anomalies or outliers that could provide critical insights. For example, a null value in sales data could be linked to an external factor, such as a supply chain disruption, that merits investigation.
 
+![Missing Values by Country](./Plots/MissingData.png)
 
+### ***Observations on the Missing CustomerID Records by Country***
+
+**Dominance of Missing Data in the United Kingdom:**
+
+The United Kingdom has an overwhelmingly high number of missing CustomerID records, accounting for 98.90% of all missing values in the dataset. This suggests that nearly all missing customer IDs are from transactions originating in the UK.
+This could indicate a potential issue with data collection or entry specifically related to UK-based transactions, which warrants further investigation.
+
+**Low Missing Data in Other Countries:**
+
+Other countries have a significantly lower percentage of missing CustomerID records, with EIRE (Ireland) having the next highest at 0.53%, followed by Hong Kong at 0.21%.
+The very low percentages for the remaining countries (all below 0.15%) indicate that missing data is not a widespread issue outside of the UK.
 
 #### Observations:
 
