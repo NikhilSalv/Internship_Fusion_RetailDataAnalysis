@@ -9,14 +9,16 @@ The dataset represents transaction data from an online retail store. It includes
 ### Scruitinising Missing data as well as Cancelled invoices.
 
 Null values may carry important contextual information. For instance, missing values in a healthcare dataset might indicate that a patient was not tested for a particular condition, which could be a critical insight in itself.
-Imbalance in Data: Removing rows with null values can lead to a loss of data that represents specific subgroups, causing an imbalance. This can skew the analysis, particularly if the null values are not randomly distributed but are instead associated with a particular class or category.
-Bias Introduction:
 
-If the missing data is non-random, simply dropping these entries can introduce bias into the analysis. For example, if income data is missing more frequently for certain demographics, removing these rows could lead to underrepresentation of those groups, skewing insights and potentially leading to biased decisions.
+Imbalance in Data: Removing rows with null values can lead to a loss of data that represents specific subgroups, causing an imbalance. This can skew the analysis, particularly if the null values are not randomly distributed but are instead associated with a particular class or category.
+
+Bias Introduction: If the missing data is non-random, simply dropping these entries can introduce bias into the analysis. For example, if income data is missing more frequently for certain demographics, removing these rows could lead to underrepresentation of those groups, skewing insights and potentially leading to biased decisions.
+
 Correlation with Other Variables: Null values might be correlated with other variables. By removing them, you might inadvertently affect the relationships and correlations in the dataset, leading to inaccurate modeling and interpretation.
 Reduction in Sample Size:
 
 Dropping rows with missing data reduces the sample size, which in turn reduces the statistical power of the analysis. This could result in less reliable results, especially in smaller datasets where every data point is valuable.
+
 Overfitting in Models: In predictive modeling, a reduced dataset might lead to overfitting, where the model becomes too closely tailored to the limited data it has, reducing its generalizability to new data.
 Missed Patterns and Anomalies:
 
