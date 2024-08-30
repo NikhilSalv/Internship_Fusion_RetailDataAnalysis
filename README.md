@@ -23,9 +23,11 @@ Missed Patterns and Anomalies:
 Sometimes, patterns in missing data can reveal underlying issues or insights, such as systematic errors in data collection or specific conditions under which data is missing. By dropping null values, you miss the opportunity to explore these patterns and address potential systemic issues.
 Anomalies and Outliers: Missing values might be associated with anomalies or outliers that could provide critical insights. For example, a null value in sales data could be linked to an external factor, such as a supply chain disruption, that merits investigation.
 
-![Missing Values by Country](./Plots/MissingData.png)
+
 
 ### ***Observations on the Missing CustomerID Records by Country***
+
+![Missing Values by Country](./Plots/MissingData.png)
 
 **Dominance of Missing Data in the United Kingdom:**
 
@@ -37,7 +39,25 @@ This could indicate a potential issue with data collection or entry specifically
 Other countries have a significantly lower percentage of missing CustomerID records, with EIRE (Ireland) having the next highest at 0.53%, followed by Hong Kong at 0.21%.
 The very low percentages for the remaining countries (all below 0.15%) indicate that missing data is not a widespread issue outside of the UK.
 
-#### Observations:
+
+
+## Observations on the Number of Cancelled Records by Country
+
+![Cancelled Invoices](./Plots/CancelledByCountry.png)
+
+***High Number of Cancellations in the United Kingdom:***
+
+The United Kingdom has an overwhelmingly large number of cancelled records compared to other countries, with the bubble size representing a significant outlier. This indicates that the majority of cancellations are concentrated in the UK.
+
+***Minimal Cancellations in Other Countries:***
+
+The other countries have relatively few cancellations, with their bubbles barely visible in comparison to the UK. This suggests that invoice cancellations are not a widespread issue outside of the UK.
+
+***Potential Areas for Investigation:***
+
+The high number of cancellations in the UK may indicate issues specific to this market, such as customer behavior, product issues, or differences in sales processes. Investigating the root causes of these cancellations could provide insights into how to reduce them.
+
+#### Exploratory Data Analysis and Observations:
 
 **1. Total Price by Country**
 
